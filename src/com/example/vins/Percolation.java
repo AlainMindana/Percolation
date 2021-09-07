@@ -12,7 +12,7 @@ public class Percolation {
 //        open(2);
 //        open(0);
         for (int i = 0; i < 4; i++){
-            open((int) (Math.random()*(8 - 0 + 1) + 0));
+            open((int) (Math.random()*(8 + 1) + 0));
         }
 
         //Get the latest open virtual top site at row 0 for virtual top connection

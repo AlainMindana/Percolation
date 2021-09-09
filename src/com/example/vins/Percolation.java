@@ -1,7 +1,7 @@
 package com.example.vins;
 
 public class Percolation {
-    public static int size = 10;
+    public static int size = 20;
     private static WQUPC wqupc = new WQUPC(size);
     public static int matrixSize = wqupc.matrix[0].length; //
     public static int j = 0;
@@ -9,7 +9,7 @@ public class Percolation {
 
     public static void main(String[] args) {
 
-        for (int i = 0; i < 35; i++){
+        for (int i = 0; i < 85; i++){
             open((int) (Math.random()*(99 + 1) + 0));
             percolates();
         }
